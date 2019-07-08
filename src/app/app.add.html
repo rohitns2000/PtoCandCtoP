@@ -1,0 +1,52 @@
+
+<h2>In add Employee.html....</h2>
+
+DATA From Parent.....{{inchild}}
+<input type="button" value="Child" (click)="callingParent()" />
+
+
+<!-- Employee id is {{empId}}<br/>
+
+Employee Name is {{empName}}<br/>
+Employee Salary is {{empSalary}}<br/>
+
+<input type="button" value="ADD DATA" ()="addEmployee()" />
+
+
+<table>
+        <tr>
+                <td>Employee ID</td>
+                <td><input type="text" [(ngModel)]="empId"/></td>
+        </tr>
+    
+        <tr>
+                <td>Employee Name</td>
+                <td><input type="text" [(ngModel)]="empName"/></td>
+        </tr>
+    
+        <tr>
+                <td>Employee Salary</td>
+                <td><input type="text" [(ngModel)]="empSalary"/></td>
+        </tr>
+    
+        <tr>
+                <td><input type="button" value="ADD DATA" (click)="addEmployee()" /></td>
+        </tr>
+    </table>
+
+    <h2>Show All Employee</h2>
+
+    <table border="1">
+        <tr>
+            <th>EmployeeId</th>
+            <th>Employee Name</th>
+            <th>Employee Salary</th>
+        </tr>
+
+        <tr *ngFor="let data of empAll;let i=index" >
+            <td>{{data.empId}}</td>
+            <td>{{data.empName}}</td>
+            <td>{{data.empSalary}}</td>
+            <td><input type="button" value="DELETE" (click)="deleteEmployee(i)"/></td>
+        </tr>
+    </table> -->
